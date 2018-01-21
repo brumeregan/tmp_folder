@@ -1,6 +1,6 @@
 % rebase('base.tpl')
-<h1>This is delivered products</h1>
-<form method="post">
+<h1>Учет поставленных товаром по заказам</h1>
+<form method="get">
     <select name="month">
         <option value="01">January</option>
         <option value="02">February</option>
@@ -18,6 +18,16 @@
     <button>Submit</button>
 </form>
 
+<form method="post">
+    <select name="delivered_order">
+        %for order in orders:
+            <option value="{{order['id']}}">{{order['id']}}</option>
+        %end
+    </select>
+    <input type="number" name="delivered_amount">
+    <input type="date" name="delivered_date">
+    <button>Submit</button>
+</form>
 
 <table>
     <thead>
@@ -30,7 +40,7 @@
     <tbody>
         %for i, item in enumerate(items):
             <tr>
-                <td>{{i}}</td>
+                <td>{{i + 1}}</td>
                 <td>{{item['product_name']}}</td>
                 <td>{{item['amount']}}</td>
                 <td><b>{{item['company_name']}}</b>,</td>
@@ -39,3 +49,4 @@
         %end
     </tbody>
 </table>
+

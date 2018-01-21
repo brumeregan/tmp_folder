@@ -2,7 +2,7 @@
 <h1>Таблица заказов</h1>
 <table>
     <thead>
-        <th>ID</th>
+        <th>#order</th>
         <th>Product name</th>
         <th>amount</th>
         <th>consumer</th>
@@ -12,9 +12,9 @@
         %for item in items:
             <tr>
                 <td>{{ item['id'] }}</td>
-                <td>{{ item['product_code'] }}</td>
+                <td>{{ item['product_name'] }}</td>
                 <td>{{ item['amount'] }}</td>
-                <td>{{ item['consumer_code'] }}</td>
+                <td>{{ item['company_name'] }}</td>
                 <td>{{ item['delivery_date'] }}</td>
             </tr>
         %end
