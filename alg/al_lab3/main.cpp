@@ -24,6 +24,7 @@ void print_list(node_t *head) {
 int remove_by_value(node_t **head, int val);
 
 void insert_max_elem(node **head, int x);
+void sort(node **head);
 
 //void delete_list(node_t *head) {
 //    node_t  *current = head,
@@ -36,14 +37,14 @@ void insert_max_elem(node **head, int x);
 //    }
 //}
 
-void createnode(int value) {
+void createnode(int value, node **head) {
     node *temp = new node;
 
     temp->val=value;
     temp->next=NULL;
 
-    if (head==NULL) {
-        head=temp;
+    if (*head==NULL) {
+        *head=temp;
         tail=temp;
         temp=NULL;
     } else {
@@ -71,19 +72,21 @@ int main(void) {
     int val;
 
     int list_length = 10;
-
+    int arr[9] = {63, 98, 13, 48, 39, 75, 49, 41, 19};
     for(int i = 1; i < list_length; i++) {
-        val = rand() % 100 + 1;
-        createnode(val);
+//        val = rand() % 100 + 1;
+        val = arr[i-1];
+        createnode(val, &head);
     }
 
     printf("Print list: \n");
     print_list(head);
     printf("\n *********** \n");
-
+//
     int min_val, max_val;
     min_val = max_val = head->val;
     node *current = head;
+
     while (current) {
         if (current->val < min_val)
             min_val = current->val;
@@ -105,11 +108,23 @@ int main(void) {
     printf("********** Find next max and insert max \n");
     int some_max = 4;
     insert_max_elem(&head, some_max);
+    print_list(head);
+
+    printf("********** Sort \n");
+    sort(&head);
+    print_list(head);
+
+    printf("Adding at the end of list desc list \n");
+
+    int array[9] = {1, 2, 3, 1, 2, 3, 3, 2, 1};
+
+    for (int l = sizeof(array)/sizeof(array[0]) - 1;l >= 0; l--) {
+        createnode(array[l], &head);
+    }
+    print_list(head);
 
 
-//    delete_list(test_list);
-
-    return EXIT_SUCCESS;
+    return 0;
 }
 
 
@@ -176,35 +191,86 @@ int remove_by_value(node_t **head, int val) {
 void insert_max_elem(node **head, int x) {
     struct node * prevX = NULL, *next_max = NULL, *currX = *head;
 
-    while(currX && currX->val < x) {
-        currX = currX->next;
-        next_max = currX;
+    while(currX->next != NULL) {
 
-        printf("\n currX->val < x: %d , x - %d \n", currX->val < x, currX->val );
+        if (currX->val > x) {
+            next_max = currX;
+            break;
+        }
+
+        currX = currX->next;
+
+//        printf("\n currX->val < x: %d , x - %d \n", currX->val < x, currX->val );
+    }
+
+    if (currX->next == NULL) {
+        return;
     }
 
     printf("Some text\n");
     printf("next_max %d \n", next_max->val);
 
     //TODO find max in head.
-
+//    int arr[9] = {96, 21, 85, 8, 15, 18, 22, 73, 47};
     struct node *max = *head;
     struct node *current = *head;
+    struct node *previous = *head, *max_prev = NULL;
 
-    while (current) {
-        if (current->val > max->val)
+    while (current->next != NULL) {
+        if (current->val > max->val) {
+            max_prev = previous;
             max = current;
+        }
+        previous = current;
         current = current->next;
     }
 
     printf("max in head %d \n", max->val);
+    if (max_prev)
+        printf("prev of max head %d \n", max_prev->val);
 
     // Inserting.
 
+    if (next_max == max) {
+        return;
+    }
+    if (max_prev)
+    {
+        max_prev->next = max->next;
+    } else {
+        *head = next_max;
+    }
 
 
-
+    max->next = next_max->next;
+    next_max->next = max;
 }
 
+void sort(node **head) {
+    struct node *outer = *head, *inner = NULL;
+    struct node *inner_next = NULL, *inner_last = NULL;
+    int count = 0;
+    while (outer != NULL) {
+        count++;
+        outer = outer->next;
+    }
 
+    for (int i = 0; i < count; i++) {
+        inner = *head;
+        while(inner->next != NULL && inner != inner_last) {
+            inner_next = inner->next;
+            if (inner->val > inner_next->val) {
+                swap(head, inner->val, inner_next->val);
+            } else {
+                inner = inner->next;
+            }
+        }
+        if(inner->next == NULL) {
+            tail = inner;
+        }
+
+        inner_last = inner;
+    }
+
+}
 
