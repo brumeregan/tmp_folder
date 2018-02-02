@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kerkins/Documents/kpi-education/basics-of-programming/lab9/lab9.cpp
+cstdio
+-
+ctime
+-
+cmath
+-
+cstring
+-
+

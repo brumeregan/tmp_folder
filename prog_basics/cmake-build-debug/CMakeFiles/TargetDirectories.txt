@@ -1,0 +1,10 @@
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab9.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab8.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab6.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab1.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab2.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab3.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab4.dir
+/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab5.dir

@@ -1,0 +1,8 @@
+//
+// Created by Kerkins on 23.01.2018.
+//
+
+#ifndef KPI_EDUCATION_EQUATION_H
+#define KPI_EDUCATION_EQUATION_H
+
+#endif //KPI_EDUCATION_EQUATION_H
