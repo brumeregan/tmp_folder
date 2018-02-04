@@ -85,6 +85,9 @@
 		<Unit filename="/Users/brumeregan/git/tmp_folder/alg/al_lab3/main.cpp">
 			<Option target="alg"/>
 		</Unit>
+		<Unit filename="/Users/brumeregan/git/tmp_folder/alg/al_lab4/main.cpp">
+			<Option target="alg"/>
+		</Unit>
 		<Unit filename="/Users/brumeregan/git/tmp_folder/alg/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

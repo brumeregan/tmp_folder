@@ -8,413 +8,413 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab9">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab9"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab9"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab9/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab9/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab9/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab8">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab8"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab8/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab8/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab6">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab6" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab6/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab6" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab1">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab1/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab2">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab2/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab3">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab3/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab4">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab4/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab5">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab5"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab5/fast">
-				<Option output="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/lab5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug"/>
+				<Option output="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/lab5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab5/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab1/lab1.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab1/lab1.cpp">
 			<Option target="lab1"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab2/lab2.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab2/lab2.cpp">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab3.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab3.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab4.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab4.cpp">
 			<Option target="lab4"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab5.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab5.cpp">
 			<Option target="lab5"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab6.cpp">
 			<Option target="lab6"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab8/lab8.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab8/lab8.cpp">
 			<Option target="lab8"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab9/lab9.cpp">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab9/lab9.cpp">
 			<Option target="lab9"/>
 		</Unit>
-		<Unit filename="/Users/kerkins/git/tmp_folder/prog_basics/CMakeLists.txt">
+		<Unit filename="/Users/brumeregan/git/tmp_folder/prog_basics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -150,6 +150,33 @@ al_lab3/main.cpp.s:
 	$(MAKE) -f CMakeFiles/alg.dir/build.make CMakeFiles/alg.dir/al_lab3/main.cpp.s
 .PHONY : al_lab3/main.cpp.s
 
+al_lab4/main.o: al_lab4/main.cpp.o
+
+.PHONY : al_lab4/main.o
+
+# target to build an object file
+al_lab4/main.cpp.o:
+	$(MAKE) -f CMakeFiles/alg.dir/build.make CMakeFiles/alg.dir/al_lab4/main.cpp.o
+.PHONY : al_lab4/main.cpp.o
+
+al_lab4/main.i: al_lab4/main.cpp.i
+
+.PHONY : al_lab4/main.i
+
+# target to preprocess a source file
+al_lab4/main.cpp.i:
+	$(MAKE) -f CMakeFiles/alg.dir/build.make CMakeFiles/alg.dir/al_lab4/main.cpp.i
+.PHONY : al_lab4/main.cpp.i
+
+al_lab4/main.s: al_lab4/main.cpp.s
+
+.PHONY : al_lab4/main.s
+
+# target to generate assembly for a file
+al_lab4/main.cpp.s:
+	$(MAKE) -f CMakeFiles/alg.dir/build.make CMakeFiles/alg.dir/al_lab4/main.cpp.s
+.PHONY : al_lab4/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... al_lab3/main.o"
 	@echo "... al_lab3/main.i"
 	@echo "... al_lab3/main.s"
+	@echo "... al_lab4/main.o"
+	@echo "... al_lab4/main.i"
+	@echo "... al_lab4/main.s"
 .PHONY : help
 
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/alg.dir/al_lab3/main.cpp.o"
+  "CMakeFiles/alg.dir/al_lab4/main.cpp.o"
   "alg.pdb"
   "alg"
 )

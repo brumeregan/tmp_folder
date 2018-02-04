@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
         y = (log10(a + pow(x, 2)) - sqrt(b*x))/(tan(b*x) + pow(abs(a + x), 1/5.0));
         printf("x=%.3f, a=%.3f, b=%.3f, y = %.3f \n", x, a, b, y);
     } else {
-        printf("Not enoght variables!");
+        printf("Not enough variables!");
     }
 
     return 0;
