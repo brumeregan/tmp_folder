@@ -1,13 +1,12 @@
-#include <ncurses.h>
-#include <menu.h>
-
 #include <cstring>
 #include <cstdlib>
 
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD 4
+#include <ncurses.h>
+#include <menu.h>
 
-char choices[][10] = {
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+
+char projects[][10] = {
         "lab1",
         "lab2",
         "lab3",
@@ -15,20 +14,18 @@ char choices[][10] = {
         "lab5"
 };
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     ITEM **items;
-    int c;
     MENU *menu;
-    int n_choices, i;
-    ITEM *current;
+    int key_pressed,
+        num_project,
+        i;
 
-    /* Initialize items */
-    n_choices = ARRAY_SIZE(choices);
-    items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
-    for(i = 0; i < n_choices; ++i)
-        items[i] = new_item(choices[i], NULL);
-    items[n_choices] = (ITEM *)NULL;
+    num_project = ARRAY_SIZE(projects);
+    items = (ITEM **)calloc(num_project + 1, sizeof(ITEM *));
+    for(i = 0; i < num_project; ++i)
+        items[i] = new_item(projects[i], NULL);
+    items[num_project] = (ITEM *)NULL;
 
     menu = new_menu((ITEM **)items);
 
@@ -37,50 +34,50 @@ int main(int argc, char *argv[])
     cbreak();
     keypad(stdscr, true);
 
-    // get screen size
-    int yMax, xMax;
-    getmaxyx(curscr, yMax, xMax);
+    // data for screen params
+    int max_x, max_y;
+    getmaxyx(curscr, max_y, max_x);
 
-    // create windows for the menu and output
-    WINDOW * menu_win = newwin(yMax/3, xMax, 0, 0);
-    WINDOW * output = newwin(yMax/3 * 2 + 1, xMax, yMax/3, 0);
+    // create separated window
+    WINDOW *menu_win = newwin(max_y/3, max_x, 0, 0);
+    WINDOW *result = newwin(max_y/3 * 2 + 1, max_x, max_y/3, 0);
     refresh();
 
     box(menu_win, 0, 0);
-    mvwprintw(menu_win, 0, 1, "Menu:");
-    mvwprintw(output, 0, 1, "Output:");
-    wrefresh(output);
+    mvwprintw(menu_win, 1, 1, "Menu:");
+    mvwprintw(result, 0, 1, "Result:");
+    wrefresh(result);
     set_menu_win(menu, menu_win);
-    set_menu_sub(menu, derwin(menu_win, 6, 68, 1, 1));
+    set_menu_sub(menu, derwin(menu_win, 6, 68, 2, 1));
     set_menu_format(menu, 5, 1);
-    set_menu_mark(menu, ">> ");
+    set_menu_mark(menu, "# ");
     wmove(menu_win, 3, 3);
     wrefresh(menu_win);
     post_menu(menu);
     wrefresh(menu_win);
 
-    while((c = getch()) != 27)
-    {
+    while((key_pressed = getch()) != 27) {
         char args[80];
-        switch(c)
-        {       case KEY_DOWN:
+        switch(key_pressed) {
+            case KEY_DOWN:
                 menu_driver(menu, REQ_DOWN_ITEM);
                 break;
             case KEY_UP:
                 menu_driver(menu, REQ_UP_ITEM);
                 break;
             case KEY_LEFT:
+            case KEY_RIGHT:
                 mvwprintw(menu_win, 10, 1, "Enter CLI arguments:\n");
                 wmove(menu_win, 11, 1);
                 wrefresh(menu_win);
                 mvwgetstr(menu_win, 11, 1, args);
                 break;
-            case 10:	/* Enter */
-                wclear(output);
-                mvwprintw(output, 0, 1, "Output:");
+            case 10:
+                wclear(result);
+                mvwprintw(result, 0, 1, "Result:");
 
-                wmove(output,1, 0);
-                wrefresh(output);
+                wmove(result,1, 0);
+                wrefresh(result);
                 char str[80];
                 strcpy(str, "./cmake-build-debug/");
                 strcat(str, item_name(current_item(menu)));
