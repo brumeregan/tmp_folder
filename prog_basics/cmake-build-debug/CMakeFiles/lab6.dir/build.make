@@ -57,38 +57,38 @@ include CMakeFiles/lab6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab6.dir/flags.make
 
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o: CMakeFiles/lab6.dir/flags.make
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o: ../basics-of-programming/lab6-pract.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o -c /Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6-pract.cpp
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o: CMakeFiles/lab6.dir/flags.make
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o: ../basics-of-programming/lab6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o -c /Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6.cpp
 
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6-pract.cpp > CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.i
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6.cpp > CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.i
 
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6-pract.cpp -o CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.s
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6.cpp -o CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.s
 
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.requires:
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.requires:
 
-.PHONY : CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.requires
+.PHONY : CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.requires
 
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.provides: CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.requires
-	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.provides.build
-.PHONY : CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.provides
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.provides: CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.provides.build
+.PHONY : CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.provides
 
-CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.provides.build: CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o
+CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.provides.build: CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o
 
 
 # Object files for target lab6
 lab6_OBJECTS = \
-"CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o"
+"CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o"
 
 # External object files for target lab6
 lab6_EXTERNAL_OBJECTS =
 
-lab6: CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o
+lab6: CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o
 lab6: CMakeFiles/lab6.dir/build.make
 lab6: CMakeFiles/lab6.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab6"
@@ -99,7 +99,7 @@ CMakeFiles/lab6.dir/build: lab6
 
 .PHONY : CMakeFiles/lab6.dir/build
 
-CMakeFiles/lab6.dir/requires: CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o.requires
+CMakeFiles/lab6.dir/requires: CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o.requires
 
 .PHONY : CMakeFiles/lab6.dir/requires
 

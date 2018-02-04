@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab9/lab9.cpp
+cstdio
+-
+ctime
+-
+cmath
+-
+cstring
+-
+

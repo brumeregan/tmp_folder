@@ -1,5 +1,3 @@
-
-
 #include "lab7-eq.h"
 
 int main(void) {

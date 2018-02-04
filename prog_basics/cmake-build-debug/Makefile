@@ -349,32 +349,32 @@ basics-of-programming/lab5.cpp.s:
 	$(MAKE) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/basics-of-programming/lab5.cpp.s
 .PHONY : basics-of-programming/lab5.cpp.s
 
-basics-of-programming/lab6-pract.o: basics-of-programming/lab6-pract.cpp.o
+basics-of-programming/lab6.o: basics-of-programming/lab6.cpp.o
 
-.PHONY : basics-of-programming/lab6-pract.o
+.PHONY : basics-of-programming/lab6.o
 
 # target to build an object file
-basics-of-programming/lab6-pract.cpp.o:
-	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o
-.PHONY : basics-of-programming/lab6-pract.cpp.o
+basics-of-programming/lab6.cpp.o:
+	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o
+.PHONY : basics-of-programming/lab6.cpp.o
 
-basics-of-programming/lab6-pract.i: basics-of-programming/lab6-pract.cpp.i
+basics-of-programming/lab6.i: basics-of-programming/lab6.cpp.i
 
-.PHONY : basics-of-programming/lab6-pract.i
+.PHONY : basics-of-programming/lab6.i
 
 # target to preprocess a source file
-basics-of-programming/lab6-pract.cpp.i:
-	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.i
-.PHONY : basics-of-programming/lab6-pract.cpp.i
+basics-of-programming/lab6.cpp.i:
+	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.i
+.PHONY : basics-of-programming/lab6.cpp.i
 
-basics-of-programming/lab6-pract.s: basics-of-programming/lab6-pract.cpp.s
+basics-of-programming/lab6.s: basics-of-programming/lab6.cpp.s
 
-.PHONY : basics-of-programming/lab6-pract.s
+.PHONY : basics-of-programming/lab6.s
 
 # target to generate assembly for a file
-basics-of-programming/lab6-pract.cpp.s:
-	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.s
-.PHONY : basics-of-programming/lab6-pract.cpp.s
+basics-of-programming/lab6.cpp.s:
+	$(MAKE) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.s
+.PHONY : basics-of-programming/lab6.cpp.s
 
 basics-of-programming/lab8/lab8.o: basics-of-programming/lab8/lab8.cpp.o
 
@@ -461,9 +461,9 @@ help:
 	@echo "... basics-of-programming/lab5.o"
 	@echo "... basics-of-programming/lab5.i"
 	@echo "... basics-of-programming/lab5.s"
-	@echo "... basics-of-programming/lab6-pract.o"
-	@echo "... basics-of-programming/lab6-pract.i"
-	@echo "... basics-of-programming/lab6-pract.s"
+	@echo "... basics-of-programming/lab6.o"
+	@echo "... basics-of-programming/lab6.i"
+	@echo "... basics-of-programming/lab6.s"
 	@echo "... basics-of-programming/lab8/lab8.o"
 	@echo "... basics-of-programming/lab8/lab8.i"
 	@echo "... basics-of-programming/lab8/lab8.s"

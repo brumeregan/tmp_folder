@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6.cpp
+ncurses.h
+-
+menu.h
+-
+cstring
+-
+cstdlib
+-
+

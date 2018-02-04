@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o"
+  "CMakeFiles/lab6.dir/basics-of-programming/lab6.cpp.o"
   "lab6.pdb"
   "lab6"
 )
