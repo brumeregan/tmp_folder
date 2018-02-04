@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/brumeregan/git/tmp_folder/prog_basics/basics-of-programming/lab5.cpp" "/Users/brumeregan/git/tmp_folder/prog_basics/cmake-build-debug/CMakeFiles/lab5.dir/basics-of-programming/lab5.cpp.o"
+  "/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab5.cpp" "/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/CMakeFiles/lab5.dir/basics-of-programming/lab5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
