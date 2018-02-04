@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kerkins/Documents/kpi-education/basics-of-programming/lab6-pract.cpp" "/Users/kerkins/Documents/kpi-education/cmake-build-debug/CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o"
+  "/Users/kerkins/git/tmp_folder/prog_basics/basics-of-programming/lab6-pract.cpp" "/Users/kerkins/git/tmp_folder/prog_basics/cmake-build-debug/CMakeFiles/lab6.dir/basics-of-programming/lab6-pract.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

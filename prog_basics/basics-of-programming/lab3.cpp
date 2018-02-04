@@ -4,8 +4,6 @@
 #define A 2
 #define B 42
 
-// TODO поменять с 4
-
 int main(void) {
 
     double x, y;
